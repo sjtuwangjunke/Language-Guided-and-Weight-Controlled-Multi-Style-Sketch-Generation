@@ -1,0 +1,39 @@
+CFG: 15
+adain_range:
+- 0
+- 100
+alpha: 0.5
+app_image_path: null
+clip_weight: 25
+contrast_strength: 1.67
+cross_attn_32_range:
+- 0
+- 70
+cross_attn_64_range:
+- 0
+- 90
+domain_name: a dog
+interpolation: 0.1
+load_latents: true
+mix_style: false
+num_timesteps: 100
+object_noun: a dog
+output_path: output_final/style_matching/a dog/multi_style
+per_style_interpolation: false
+prompt: a sketch of a dog
+ref_name: null
+resize: false
+seed: 42
+skip_steps: 0
+sparse_weight: 10
+struct_image_path: null
+struct_name: null
+style_base_dir: style_base
+style_image_paths: null
+style_weights: null
+swap_guidance_scale: 3.5
+top_k_styles: 2
+use_masked_adain: false
+user_query: lines with distinct thick-thin variation, light and heavy stroke changes,
+  casual pencil sketch texture, loose natural outlines, undulating lively lines, relaxed
+  draft-like hand-drawn feel

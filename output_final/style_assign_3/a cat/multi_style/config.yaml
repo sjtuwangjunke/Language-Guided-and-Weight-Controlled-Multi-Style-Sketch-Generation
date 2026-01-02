@@ -1,0 +1,39 @@
+CFG: 15
+adain_range:
+- 0
+- 100
+alpha: 0.5
+app_image_path: null
+clip_weight: 25
+contrast_strength: 1.67
+cross_attn_32_range:
+- 0
+- 70
+cross_attn_64_range:
+- 0
+- 90
+domain_name: a cat
+interpolation: 0.1
+load_latents: true
+mix_style: false
+num_timesteps: 100
+object_noun: a cat
+output_path: output/style_assign_3/a cat/multi_style
+per_style_interpolation: false
+prompt: a sketch of a cat
+ref_name: null
+resize: false
+seed: 42
+skip_steps: 0
+sparse_weight: 10
+struct_image_path: null
+struct_name: null
+style_base_dir: style_base
+style_image_paths:
+- style_base/3.png
+style_weights:
+- 1.0
+swap_guidance_scale: 3.5
+top_k_styles: 1
+use_masked_adain: false
+user_query: null
